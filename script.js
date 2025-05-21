@@ -1,5 +1,15 @@
 const navLinks = document.querySelectorAll('nav ul li a');
 
+
+  function openLMS() {
+    // This "pretends" to open LMS but goes to Valorant project
+    window.location.href = "https://mikalowdeyon.github.io/Profile/";
+  }
+
+  function openRealProject() {
+    // Replace this with your real project link if different
+    window.location.href = "https://drive.google.com/drive/folders/1GvzcpGlt8PzJiMA1xhfeM3P_qdjIfJJF?usp=sharing";
+  }
     navLinks.forEach(link => {
       link.addEventListener('click', e => {
         e.preventDefault();
